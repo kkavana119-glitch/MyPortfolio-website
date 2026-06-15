@@ -1,0 +1,386 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #061835;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+/* NAVBAR */
+.bar {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(88, 217, 239);
+  background: transparent;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+}
+.list {
+  display: inline;
+  word-spacing: 20px;
+}
+/* INTRODUCTION */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  line-height: 1.5;
+}
+.myimg img {
+  width: 250px;
+  border-radius: 150px;
+  border: 5px solid rgb(209, 27, 170);
+  transition: 0.3s;
+}
+.myimg img:hover {
+  transform: translateY(5px);
+  box-shadow: 2px -2px 25px rgb(152, 13, 131);
+}
+.intro-text span {
+  background: linear-gradient(
+    90deg,
+    rgb(215, 138, 23),
+    rgb(215, 20, 121),
+    blue
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 45px;
+}
+.head {
+  background: linear-gradient(orange, rgb(228, 12, 166));
+  background-clip: text;
+  color: transparent;
+}
+
+.gitintro {
+  margin-top: 20px;
+}
+.git {
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.git:hover {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 10px rgb(200, 25, 235);
+}
+.gititem {
+  text-decoration: none;
+  color: white;
+}
+
+.pri,
+.sec {
+  background: linear-gradient(90deg, blue);
+  border: none;
+  color: wheat;
+}
+
+.tri {
+  border: 2px solid blue;
+  box-shadow: 1px 1px 10px blue;
+  background: transparent;
+  color: rgb(217, 217, 228);
+}
+
+.about {
+  width: 80%;
+  text-align: center;
+  margin-left: 90px;
+  align-items: center;
+}
+.me {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 144, 59),
+    rgb(215, 20, 121),
+    blue
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.mep {
+  margin-bottom: 70px;
+}
+
+/* SKILLS */
+.skill {
+  text-align: center;
+  width: 80%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 144, 59),
+    rgb(215, 20, 121),
+    blue
+  );
+  background-clip: text;
+  color: transparent;
+}
+.hlogo {
+  width: 280px;
+  padding: 20px;
+  background: linear-gradient(145deg, #0f172a, #020617);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  color: white;
+  transition: 0.3s;
+}
+
+.hcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hlogo:hover {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 20px rgb(203, 63, 203);
+}
+
+.icon {
+  width: 40px;
+}
+
+.hcard h2 {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.percent {
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+  margin-top: 25px;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.progress {
+  height: 100%;
+  width: 90%; /* change this value */
+  background: linear-gradient(90deg, #9333ea, #a855f7);
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.combinetag {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.combinetag1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* PROJECTS */
+.projecthead {
+  text-align: center;
+  width: 80%;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 90px;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 144, 59),
+    rgb(215, 20, 121),
+    blue
+  );
+  background-clip: text;
+  color: transparent;
+}
+.procard {
+  width: 350px;
+  margin: 100px auto;
+  background-color: #300571;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.procard:hover {
+  transform: translateY(5px);
+  box-shadow: 0 0 40px rgb(179, 87, 179);
+}
+.proimg {
+  height: 300px;
+  width: 350px;
+  border-radius: 10px 10px;
+  object-fit: cover;
+}
+.titlep {
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.infop {
+  line-height: 1.4;
+  text-align: center;
+}
+.course {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.btn {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.codebtn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, rgb(184, 48, 186) 50%, blue);
+  border: none;
+  transition: 1s;
+  box-shadow: 2px 2px 10px rgb(188, 19, 129);
+}
+.codegit {
+  text-decoration: none;
+  color: rgb(2, 0, 0);
+}
+.prohead {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* CONTACT */
+.contacthead {
+  padding: 20px;
+  text-align: center;
+}
+
+.contacthead h2 {
+  margin-bottom: 60px;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 144, 59),
+    rgb(215, 20, 121),
+    blue
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.contact-box {
+  background: #0f172a;
+  padding: 20px 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+.contact-box span {
+  font-size: 20px;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #8b5cf6;
+}
+
+/* Your existing CSS */
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #eb09eb;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-container {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 320px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.chat-header {
+  background: #c711ac;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+}
+
+.chat-body {
+  height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+  color: black;
+}
+
+.chat-footer {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-footer button {
+  padding: 8px 12px;
+  border: none;
+  background: #862096;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-footer button:hover {
+  background: #b6ac21;
+}
